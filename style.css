@@ -1,0 +1,75 @@
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Georgia', serif; /* Uma fonte clássica e elegante */
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco para contraste */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header, section, footer {
+    text-align: center; /* Centralizando os textos */
+}
+
+header {
+    padding: 20px;
+    border-bottom: 1px solid #333;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #333; /* Um cinza escuro para o hover */
+}
+
+section {
+    padding: 20px;
+    position: relative; /* Preparando para adicionar imagens */
+}
+
+section img {
+    max-width: 80%; /* Definindo um tamanho máximo para as imagens */
+    margin: 20px 0; /* Espaço acima e abaixo da imagem */
+    border-radius: 5px; /* Bordas arredondadas para as imagens */
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+footer {
+    padding: 20px;
+    border-top: 1px solid #333;
+    font-size: 0.9em;
+}
